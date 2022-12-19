@@ -1,0 +1,13 @@
+{
+	"name": "andreasnymark/kirby-webfinger",
+	"description": "Kirby 3 Webfinger plugin.",
+	"type": "kirby-plugin",
+	"version": "1.0",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Andreas Nymark",
+			"email": "andreas@nymark.co"
+		}
+	]
+}
