@@ -1,4 +1,4 @@
-# Kirby 3  Webfinger
+# Kirby 3  Webfinger plugin
 
 A [Kirby 3](https://getkirby.com) [Webfinger](https://webfinger.net) plugin. Basic setup enables Mastodon endpoint, but other endpoints can be enabled via config.
 
@@ -23,9 +23,9 @@ Download and copy this repository to `/site/plugins/kirby-webfinger`.
 
 This enables the Mastodon endpoint.
 
-## Custom setup/multiple setup
+## Custom/multiple setup
 
-This can be used in combination with basic setup. The Mastodon endpoint is default if used. Otherwise the first in `webfinger.resources` will be default.
+Custom setup can be used in combination with basic setup. The Mastodon endpoint is default if used. Otherwise the first in `webfinger.resources` will be default.
 
 Test your endpoints with `example.com/.well-known/webfinger?resource=acct:first@example.social`
 
